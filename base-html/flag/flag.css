@@ -1,0 +1,11 @@
+div {
+  width: 15em;
+  background: linear-gradient(to bottom, #FFFFFF 33.333%, #cc0000 33.333%, #cc0000 66.667%, #FFFFFF 66.667%);
+  box-shadow: 0 0 5px 0 #666;
+}
+
+div::before {
+  content: "";
+  display: block;
+  padding-top: 50%;
+}
